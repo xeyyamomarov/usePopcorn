@@ -22,6 +22,8 @@ export default function App() {
   //   return JSON.parse(localData);
   // });
 
+  // 
+
   const { movies, loading, error } = useMovies(query);
 
   const KEY = "3684ea02";
